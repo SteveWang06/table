@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>web app</title>
+</head>
+<body>
+    <main>
+        <label>Name:</label>
+        <input type="text" id="name-input">
+        <label>Buy Price:</label>
+        <input type="text" id="buy-input">
+        <label>Sell Price:</label>
+        <input type="text" id="sell-input">
+        <br><br><br>
+        <button id="add-btn">Add</button>
+
+        <br><br><br>
+        <div>
+           <input placeholder="search by name" id="search-input">
+           <button id="search-btn">Search</button>
+        </div>
+
+        <table id="table">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Date Added</th>
+                <th>Bank Buy</th>
+                <th>Bank Sell</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <section hidden id="update-row">
+            <label>Name:</label>
+            <input type="text" id="update-name-input">
+            <label>Buy Price:</label>
+            <input type="text" id="update-buy-input">
+            <label>Sell Price:</label>
+            <input type="text" id="update-sell-input">
+            <br><br><br>
+            <button id="update-row-btn">Update</button>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
